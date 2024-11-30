@@ -1,0 +1,26 @@
+Definition
+Cyber Theart Intelligent
+- Cyberspace
+  - Physical layer: switchers, router, servers, submarine cables
+  - Logical layer: applications and sofftwares
+  - Information layer: text, messages
+- Threat
+  - Intention: What are the operation's objectives ?
+  - Capabilities: What techniques & tools are used in the attack ?
+  - Opportunity: How does the threat actor compromise the network ?
+# - Ý định: Mục tiêu của hoạt động là gì?
+# - Khả năng: Những kỹ thuật và công cụ nào được sử dụng trong cuộc tấn công?
+# - Cơ hội: Tác nhân đe dọa xâm phạm mạng như thế nào?
+- Intelligence: information that has been collected, crossed and analyzed. Intelligence answer the customer's needs and is actionable
+#thông tin đã được thu thập, đối chiếu và phân tích. Thông minh đáp ứng nhu cầu của khách hàng và có thể hành động
+  - Main goal: facilitate the decision-making process #tạo thuận lợi cho quá trình ra quyết định
+  - All phase
+    1. Planning & direction phase #Giai đoạn lập kế hoạch & định hướng  
+    2. Collection phase #Giai đoạn thu thập  
+    3. Processing phase #Giai đoạn xử lý
+    4. Analysic & Production phase #Giai đoạn phân tích và sản xuất
+    5. Dissemination phase #Giai đoạn phổ biến
+- Cyber Threat Intelligent: analyzed information on the malicious intent, capabilities and opportunity of an adversary to compromise a client
+  - Analyze the adversary #Phân tích đối thủ
+  - From the perspective of the client #Từ góc nhìn của khách hàng
+  
