@@ -23,4 +23,20 @@ Cyber Theart Intelligent
 - Cyber Threat Intelligent: analyzed information on the malicious intent, capabilities and opportunity of an adversary to compromise a client
   - Analyze the adversary #Phân tích đối thủ
   - From the perspective of the client #Từ góc nhìn của khách hàng
-  
+- CTI specific terminology: #Thuật ngữ cụ thể của CTI
+  - Theart actor: The human(s) or group conducting the malicious operations
+    - Cybercriminals: tội phạm mạng
+    - APTs: type of cyberattack in which the attacker gains and maintains unauthorized access to a targeted network
+    - Hacktivists: a hacker activist, someone who attacks computer systems for political reasons
+    - Script Kiddies: an unskilled individual who uses scripts or programs developed by others, primarily for malicious purposes
+  - Persona: is the avatar of the fake name that is taken by the adversary
+  - Intelligence Requirements: is a question that drives the intelligence process. Intelligence requirements are a list of questions that the client wants answers to before taking a decision
+  - Campaign: the final object of a series of malicious operations 
+  - TTP #Tactics, Techniques, and Procedures used by the adversary to fulfill its objective
+  - Intrusion: any attempts from the adversary to compromise a network #bất kỳ nỗ lực nào từ kẻ thù nhằm xâm phạm mạng
+  - TLP # Traffic Light Protocol created in order to facilitate (tạo điều kiện) greater sharing of information. rules that determine how much can data be shared within a company or between partners
+    - TLP: RED _ Not to disclosure - Restricted to participants only
+    - TLP: AMBER _ Limited disclosure - Participant organizations only
+    - TLP: GREEN _ Lmited disclosure - Restricted to community only
+    - TLP: CLEAR _ Disclosure is not limited
+  - Indicators of Compromise (IoC) #evidence that someone may have breached an organization's network or endpoint. is a technical artifact combined with context
