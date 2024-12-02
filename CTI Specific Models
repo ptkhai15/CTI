@@ -1,0 +1,38 @@
+Model
+- Cyber Kill Chain
+  - Purpose:
+    - Represent malicious activities
+    - Track adversary's modus operandi evolution #Theo dõi diễn biến phương thức hoạt động của đối thủ
+  - Example:
+    - Recon: Valid credentials / Vulnerable Internet-facing services
+    - Weaponization: Phishing email / Malicious word document
+    - Delivery: Internet Protocol HTTP / HTTPS Spear-phishing email
+    - Exploit: CVE-2022-42475 (Fortinet) User exploitation / User exploitation
+    - Install: Cobalt Strike beacon / Scheduled task / Registry keys
+    - C2: Base64 Encoded communication
+    - Action on objective: Data encryption / Data theft
+- Diamond Model: is a model used to represent an activity group. In each intrusion, the adversary wants to fulfill an objective by using capabilities deployed via an infrastructure against a target. Able to track activity groups. Facilitate attribution process. Able to analyze activity groups evolution. SOC data should allow CTI analysts to use diamond model to track adversaries
+  - Examples:
+    - Adversary uses some email, domain, ip public
+    - Adversary develops Spear-phishing email with malicious link https://buy.cherry.com/...
+    - email, domain, ip public deployed via Spear-phishing email with malicious link https://buy.cherry.com/...
+    - email, domain, ip public connects to My organization (bank located in Dubal)
+    - Spear-phishing email with malicious link https://buy.cherry.com/... exploits My organization (bank located in Dubal)
+  - Purpose:
+    - Represent malicious activities #Thể hiện các hoạt động độc hại
+    - Track adversary's modus operandi evolution
+- MITRE ATT&CK matrix: is a globally-accessible knowledge base of adversary tactics and techniques based on real-world observations
+  - Example
+    - https://mitre-attack.github.io/attack-navigator/
+  - Purpose:
+    - Fcacilitate dissemination of information #Tạo điều kiện thuận lợi cho việc phổ biến thông tin
+- Pyramid of Pain: is a structure that helps you value the knowledge you have on a threat actor. As a defender, prioritize the top of the pyramid. Possibility to discover additional adversary infrastructure based on IP addresses and domain names
+  - Overview
+    - Hash values: trivial
+    - Ip addresses: easy
+    - Domain names: simple
+    - Network/host artefacts: Annoying
+    - Tools: Challenging
+    - TTPs: Hard
+  - Purpose:
+    - Help prioritiza IoC hunting #Giúp ưu tiên săn IoC
