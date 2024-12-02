@@ -1,6 +1,14 @@
 Overview
 - Answer the customer needs and facilitate the decision-making process
 - Three level of intelligence:
-  - Strategic
-  - Operational
-  - Tactical
+  - Strategic #Chiến lược
+    Client characteristics: C-executives (less technical/big picture in mind)
+  - Operational #Vận hành
+    Client characteristics: SOC leader/ CERT leader (technical/broader picture in mind)
+  - Tactical 
+    Client characteristics: fellow analysists (technical)
+Challenge
+- Adapt your reports to the audience
+- Adapt your speech to the audience
+- Find suitable format when sharing IoCs
+
