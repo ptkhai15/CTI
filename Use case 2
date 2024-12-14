@@ -1,0 +1,21 @@
+Scenario
+  - You are: CTI Analysic
+  - Your organization: Bank located in Dubal
+  - Date: April 2023
+  - Context: the SOC leader wants to know if any cybercriminal talks about the organization in the Darkweb.
+
+  Step 1: Prepeare the virtual environment & avatar
+  - Install Virtual Box
+  - Setup a Remnux virtual machine
+  - Setup VPN connection
+  - Install Brave Browser
+  - Create an avatar
+
+  Step 2: Identify and list Darkweb forums/marketplaces
+  - Darkweb specific sources
+  - Access websites
+
+  Step 3: Identify data linked to your organization
+  - Identify remote access for sale
+  - Identify data leaks for sale
+  - Identify avatars of interest
