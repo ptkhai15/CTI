@@ -1,0 +1,39 @@
+Scenario
+  - You are: CTI Analysic
+  - Your organization: Bank located in Dubal
+  - Date: April 2023
+  - Context: the SOC leader wants to know about the activities of BlackBasta ramsomware group. The ransomware group targeted banks in the past and the SOC leader wants to know how to defend against this group
+Planning & Direction Phase
+  File excel
+Collection phase - Define Sources of Interest
+  - List of useful sources (non exhaustive)
+    - Malpedia
+    - Rosetta Stone APT Google Sheet
+    - orkl.eu
+    - Github
+    - National CERTs
+  - Cyber security editors/Threat Intel companies
+    - ESET
+    - Palo Alto
+    - SentinelOne
+    - Mandiant
+    - RecordedFuture
+    - Microsoft
+    - Google
+    - Positive Technologies
+    - Kaspersky
+    - ProofPoint
+  - Example with Google Dorks:
+    - intext:"keyword" - Search for occurrence of the keywork
+    - site:"www.organization.com" - Search particularly on that site
+    - + - Equivalent of AND
+    - | - Equivalent of OR
+    - after:"2023-01-01" - Search for results published after the date
+    - before:"2023-15-01" - Search for results published before the date 
+    - filetype:pdf - Search for this type of file extension
+    Ex: intext:"BlackBasta ransomware" + intext:"analysis" before:2023-01-01
+    Ex: intext:"BlackBasta ransomware" + intext:"victimonogy" before:2022-01-01 site:cybereason.com
+OSINT intergration Framework
+  File Word
+Collection phase - Intermation Crossing
+  File word
