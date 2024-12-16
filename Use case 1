@@ -4,7 +4,7 @@ Scenario
   - Date: April 2023
   - Context: the SOC leader wants to know about the activities of BlackBasta ramsomware group. The ransomware group targeted banks in the past and the SOC leader wants to know how to defend against this group
 Planning & Direction Phase
-  File excel
+  File excel "2.1 Intelligence Planning Workbook.xlsx"
 Collection phase - Define Sources of Interest
   - List of useful sources (non exhaustive)
     - Malpedia
@@ -34,6 +34,8 @@ Collection phase - Define Sources of Interest
     Ex: intext:"BlackBasta ransomware" + intext:"analysis" before:2023-01-01
     Ex: intext:"BlackBasta ransomware" + intext:"victimonogy" before:2022-01-01 site:cybereason.com
 OSINT intergration Framework
-  File Word
+  File Word "6.1 OSINT reports integration framework.docx"
 Collection phase - Intermation Crossing
-  File word
+  File word "6.1 OSINT reports integration framework.docx"
+Final report
+  Ex: "8.1 BlackBasta_operational-report.pdf"
