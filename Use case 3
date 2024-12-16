@@ -1,0 +1,44 @@
+Scenario
+  - You are: CTI Analysic
+  - Your organization: Bank located in Dubal
+  - Date: April 2023
+  - Context: the SOC leader wants to minimize the risk of connections to adversary controlled server (C2). The SOC already has many IP addresses listed as malicious in its End-Point Detection & Response (EDR) solution. However, he wants to know if there are any additional malicious IP addresses that can be identified
+  - C2 infrastructure hunting
+    - SSL certificate pivoting  from a known C2 IP address that has a SSL connection
+    - JARM pivoting from a known C2 server
+    - JARM pivoting from known attack emulation framework default configs
+
+C2 Hunting:
+  - C2 infrastructure hunting is the process of discovering additional infrastructure controlled by adversaries
+  - Discovering adversary controlled IP addresses based on:
+    - SSL certificates
+    - JARM fingerprinting
+  - Discovering adversary controlled domain names based on:
+    - Domain name pattern
+    - Domain registration timeframe
+    - Domain registration information
+
+SSL certificate
+  - A SSL certificate authenticates a website's identify and enables an encryted  connection between the client and a server
+  - Sometimes attackers use SSL connection for their C2 communications to evade defenses
+  - Sometimes, the same SSL certificate for multiple servers
+
+JARM Pivoting
+  - JARM is a TLS server fingerprinting tool. It can be used to identify adversary controlled servers with the same configurations
+
+SSL certificate & JARM Pivoting with Shodan
+  Ex:
+  - Cobalt strike default configs:
+    - Default certificate: 
+      - md5:950098276A495286EB2A2556FBAB6D83
+      - sha1:6ECE5ECE4192683D2D84E25B0BA7E04F9CB7EB7C
+      - sha256:87F2085C32B6A2CC709B365F55873E207A9CAA10BFFECF2FD16D3CF9D94D390C
+    - ssl.cert.serial: 146473198
+    - ssl.jarm: 07d14d16d21d21d00042d41d00041de5fb3038104f457d92ba02e9311512c
+    - https://bank-security.medium.com/hunting-cobalt-strike-servers-385c5bedda7b
+
+  - Malicious IP from a rat
+    - Malicious IP:
+    - SSL:
+    - JARM: 
+    - https://github.com/salesforce/jarm
